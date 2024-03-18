@@ -1,0 +1,31 @@
+.info-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 90%;
+}
+
+.info-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-head>i{
+    width: 2rem;
+    height: 1.2rem;
+}
+
+.info-head>i:hover{
+    cursor: pointer;
+}
+
+.logout-button{
+    width: 7rem;
+    height: 2rem;
+    margin-top: 6rem;
+    align-self: flex-end;
+}
